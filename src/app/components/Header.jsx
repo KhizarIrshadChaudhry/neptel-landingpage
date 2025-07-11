@@ -28,16 +28,16 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-10 mx-auto">
-            <Link href="#solution" className="text-base hover:text-primary transition-colors">
+            <Link href="/#solution" className="text-base hover:text-primary transition-colors">
               Services
             </Link>
-            <Link href="#why-neptel-section" className="text-base hover:text-primary transition-colors">
+            <Link href="/#why-neptel-section" className="text-base hover:text-primary transition-colors">
               Features
             </Link>
-            <Link href="#about" className="text-base hover:text-primary transition-colors">
+            <Link href="/#about" className="text-base hover:text-primary transition-colors">
               About
             </Link>
-            <Link href="#about" className="text-base hover:text-primary transition-colors">
+            <Link href="/#about" className="text-base hover:text-primary transition-colors">
               Team
             </Link>
           </nav>
@@ -76,32 +76,32 @@ export default function Header() {
         <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
           <nav className="py-4 space-y-4">
             <Link 
-              href="/features" 
+              href="/#solution" 
+              className="block text-sm hover:text-primary transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Services
+            </Link>
+            <Link 
+              href="/#why-neptel-section" 
               className="block text-sm hover:text-primary transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Features
             </Link>
             <Link 
-              href="/use-cases" 
-              className="block text-sm hover:text-primary transition-colors"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Use Cases
-            </Link>
-            <Link 
-              href="/pricing" 
-              className="block text-sm hover:text-primary transition-colors"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Pricing
-            </Link>
-            <Link 
-              href="/about" 
+              href="/#about" 
               className="block text-sm hover:text-primary transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
+            </Link>
+            <Link 
+              href="#about" 
+              className="block text-sm hover:text-primary transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Team
             </Link>
             <div className="pt-4 space-y-4">
               <Link 
@@ -112,7 +112,6 @@ export default function Header() {
                 Contact Us
                 
               </Link>
-              
             </div>
             
           </nav>
