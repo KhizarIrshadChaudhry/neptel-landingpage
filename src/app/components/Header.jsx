@@ -28,17 +28,17 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-10 mx-auto">
+            <Link href="#solution" className="text-base hover:text-primary transition-colors">
+              Services
+            </Link>
             <Link href="#why-neptel-section" className="text-base hover:text-primary transition-colors">
               Features
             </Link>
             <Link href="#about" className="text-base hover:text-primary transition-colors">
-              Team
-            </Link>
-            <Link href="#solution" className="text-base hover:text-primary transition-colors">
-              Services
+              About
             </Link>
             <Link href="#about" className="text-base hover:text-primary transition-colors">
-              About
+              Team
             </Link>
           </nav>
 

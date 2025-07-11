@@ -142,7 +142,7 @@ export default function SolutionStatement() {
                     {benefit.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">{benefit.title}</h3>
+                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-2">{benefit.title}</h3>
                     <p className="text-gray-400">{benefit.description}</p>
                   </div>
                 </div>

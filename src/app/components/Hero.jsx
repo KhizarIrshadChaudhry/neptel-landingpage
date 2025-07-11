@@ -19,14 +19,14 @@ export default function Hero() {
       />
       <div className="max-w-5xl relative z-10">
         <div className="flex flex-col items-center gap-2">
-          <span className="text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
             Privacy-first <AuroraText colors={["#0549ff", "#5d3ac7", "#0549ff", "#0549ff", "#5d3ac7", "#0549ff"]} speed={2}>AI</AuroraText> for <br className="hidden sm:block"/> 
-            <span className="text-2xl sm:text-4xl lg:text-6xl xl:text-7xl tracking-wider block mt-2 sm:mt-3">Modern Organizations</span>
-          </span>
-  
-          <h1 className="text-base sm:text-lg lg:text-xl max-w-3xl mt-4 mb-8 text-gray-300">
-            Neptel empoweres businesses with secure, local AI tools that protect data sovereignty and ensure compliance.
+            <span className="text-3xl sm:text-4xl lg:text-5xl tracking-wider block mt-2 sm:mt-3">Modern Organizations</span>
           </h1>
+  
+          <p className="text-base sm:text-lg lg:text-xl max-w-3xl mt-4 mb-8 text-gray-300">
+            Neptel empoweres businesses with secure, local AI tools that protect data sovereignty and ensure compliance.
+          </p>
         </div>
 
         <div className="flex justify-center gap-4 flex-wrap">

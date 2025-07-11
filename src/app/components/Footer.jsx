@@ -27,7 +27,7 @@ export default function Footer() {
         {/* Quick Links */}
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 text-sm">
           <div>
-            <h4 className="text-white font-semibold mb-2">Company</h4>
+            <h4 className="text-lg sm:text-xl font-semibold mb-2">Company</h4>
             <ul className="space-y-1">
               <li><Link href="/#about" className="hover:text-white">About</Link></li>
               <li><Link href="/#visionmission" className="hover:text-white">Vision & Mission</Link></li>
@@ -35,14 +35,14 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-2">Consultancy</h4>
+            <h4 className="text-lg sm:text-xl font-semibold mb-2">Consultancy</h4>
             <ul className="space-y-1">
               <li><Link href="/#problem" className="hover:text-white">Problem</Link></li>
               <li><Link href="/#solution" className="hover:text-white">Solution</Link></li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-semibold mb-2">Contact</h4>
+            <h4 className="text-lg sm:text-xl font-semibold mb-2">Contact</h4>
             <ul className="space-y-1">
               <li><a href="mailto:hello@neptel.dk" className="hover:text-white">hello@neptel.dk</a></li>
               <li><Link href="/#Getstarted" className="hover:text-white">Book Meeting</Link></li>

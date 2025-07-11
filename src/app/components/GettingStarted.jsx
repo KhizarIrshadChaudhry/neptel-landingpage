@@ -24,7 +24,7 @@ export default function GettingStarted() {
       icon: <Rocket className="w-8 h-8 text-blue-400" />,
       title: "3. Launch and Support",
       description:
-        "Start using your private AI infrastructure with full training and ongoing support from our expert team.",
+        "Start using your private AI infrastructure with full training and ongoing support from our expert team. We will always ensure up-to-date models and data.",
       highlight: "Comprehensive training included",
     },
   ];
@@ -101,7 +101,7 @@ export default function GettingStarted() {
   const openCalendly = () => {
     if (calendlyReady && window.Calendly) {
       window.Calendly.initPopupWidget({
-        url: "https://calendly.com/neptel-dk", // ← your link
+        url: "https://calendly.com/neptel-dk/30min", // ← your link
         parentElement: document.body,
       });
     } else {
@@ -127,7 +127,7 @@ export default function GettingStarted() {
       <div className="max-w-7xl mx-auto relative">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
             Just 3 Steps to Get Started
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
@@ -156,7 +156,7 @@ export default function GettingStarted() {
                 <div className="bg-blue-500/10 rounded-lg p-3 inline-block mb-6 group-hover:bg-blue-500/20 transition-colors">
                   {step.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-white">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4 text-white">
                   {step.title}
                 </h3>
                 <p className="text-gray-400 mb-4">{step.description}</p>

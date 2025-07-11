@@ -34,7 +34,7 @@ export default function VisionMission() {
 
       {/* Header */}
       <div className="relative z-10 max-w-4xl mx-auto text-center mb-16">
-        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
           Vision &amp; Mission
         </h2>
         <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full mt-4" />
@@ -55,7 +55,7 @@ export default function VisionMission() {
           {/* Glowing blob behind */}
           <div className="absolute -top-10 -left-10 w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 opacity-30 blur-3xl" />
           <Eye className="relative z-20 h-10 w-10 text-blue-400 mb-4" />
-          <h3 className="relative z-20 text-2xl font-bold mb-2 text-white">Our Vision</h3>
+          <h3 className="relative z-20 text-xl sm:text-2xl lg:text-3xl font-bold mb-2 text-white">Our Vision</h3>
           <p className="relative z-20 text-gray-300 leading-relaxed">
             To redefine the future of AI by giving every organization full
             sovereignty over their data and digital intelligence—enabling
@@ -71,7 +71,7 @@ export default function VisionMission() {
           {/* Glowing blob behind */}
           <div className="absolute -bottom-10 -right-10 w-32 h-32 rounded-full bg-gradient-to-r from-green-400 to-teal-500 opacity-30 blur-3xl" />
           <Flag className="relative z-20 h-10 w-10 text-green-400 mb-4" />
-          <h3 className="relative z-20 text-2xl font-bold mb-2 text-white">Our Mission</h3>
+          <h3 className="relative z-20 text-xl sm:text-2xl lg:text-3xl font-bold mb-2 text-white">Our Mission</h3>
           <p className="relative z-20 text-gray-300 leading-relaxed">
             We empower teams with local AI systems that guarantee privacy,
             independence, and control—free from Big Tech—and drive meaningful,

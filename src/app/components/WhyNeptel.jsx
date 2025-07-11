@@ -338,7 +338,7 @@ const WhyNeptel = () => {
         }}
       />
       <div className="text-center mb-16 relative">
-        <h2 className="text-4xl font-bold text-white mb-4">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
           Why Choose Neptel?
         </h2>
         <p className="text-lg text-gray-400 max-w-2xl mx-auto">

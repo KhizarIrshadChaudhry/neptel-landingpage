@@ -29,14 +29,14 @@ export default function AboutSection() {
       name: "Siamul Omar",
       role: "Chief Technology Officer (CTO)",
       img: "/Staff_images/CTO.jpeg",
-      desc: "Student at Denmarks Technical University dedicated to building secure and independent AI solutions.",
+      desc: "Engineering student at Denmarks Technical University dedicated to building solutions that  solve real-world problems.",
       linkedin: "https://www.linkedin.com/in/siams10/",
     },
     {
       name: "Zohaib Asgher",
       role: "Chief Financial Officer (CFO)",
       img: "/Staff_images/CFO.jpeg",
-      desc: "Student at Denmarks Technical University focused on ensuring operational excellence and client success.",
+      desc: "Enrolled at Denmarks Technical University ensuring operational and financial excellence while ensuring client success.",
       linkedin: "https://linkedin.com/in/zohaibasgher",
     },
   ];
@@ -59,7 +59,7 @@ export default function AboutSection() {
   return (
     <section
       id="about"
-      className="relative bg-[#10151B] py-24 px-6 sm:px-12 text-white overflow-hidden"
+      className="relative bg-[#13181f] py-24 px-6 sm:px-12 text-white overflow-hidden"
     >
       {/* Particle backdrop */}
       <Particles
@@ -70,8 +70,8 @@ export default function AboutSection() {
       />
 
       {/* Header */}
-      <div className="relative z-10 mb-12 text-center">
-        <h2 className="text-5xl sm:text-6xl font-extrabold">
+      <div className="relative z-10 mb-16 text-center">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold">
           About <AuroraText>Neptel</AuroraText>
         </h2>
       </div>
@@ -87,7 +87,7 @@ export default function AboutSection() {
         >
           <div className="flex items-center gap-2 text-blue-400 mb-4">
             <Globe className="w-6 h-6" />
-            <h3 className="text-2xl font-semibold">Who We Are</h3>
+            <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold">Who We Are</h3>
           </div>
           <p className="text-gray-300 leading-relaxed">
             We pioneer a new era of AI, empowering organizations with
@@ -110,9 +110,7 @@ export default function AboutSection() {
                 key={i}
                 src={src}
                 alt={`Slide ${i + 1}`}
-                className={`absolute inset-0 w-full h-full object-cover ${
-                  i === current ? "block" : "hidden"
-                }`}
+                className={`absolute inset-0 w-full h-full object-cover ${i === current ? "block" : "hidden"} scale-[1.015]`}
               />
             ))}
             <div className="hidden">
@@ -155,7 +153,7 @@ export default function AboutSection() {
               height={96}
               className="rounded-full object-cover mb-4 border-4 border-[#232B36] shadow-md"
             />
-            <h4 className="text-xl font-semibold mb-1">{c.name}</h4>
+            <h4 className="text-lg sm:text-xl font-semibold mb-1">{c.name}</h4>
             <span className="text-blue-400 font-medium mb-3">{c.role}</span>
             <p className="text-gray-400 text-sm text-center">{c.desc}</p>
             <Link

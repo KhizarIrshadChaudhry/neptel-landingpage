@@ -66,7 +66,7 @@ export default function ProblemStatement() {
                     {problem.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">{problem.title}</h3>
+                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-2">{problem.title}</h3>
                     <p className="text-gray-400">{problem.description}</p>
                   </div>
                 </div>
