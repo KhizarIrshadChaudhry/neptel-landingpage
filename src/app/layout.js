@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react"; // ← NOT "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"; // ✅ this one is correct
-
+import ClarityInit from "./components/ClarityInit";
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -35,7 +35,6 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark">
@@ -44,6 +43,7 @@ export default function RootLayout({ children }) {
         {children}
         <Analytics />
         <SpeedInsights />
+        <ClarityInit />
         
         <Script 
           src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" 
